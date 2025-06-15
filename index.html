@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Todoist Clone</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <h2>Todoist Clone</h2>
+      <ul>
+        <li class="tab active" data-category="inbox"><i class="fas fa-inbox"></i> Inbox</li>
+        <li class="tab" data-category="today"><i class="fas fa-calendar-day"></i> Today</li>
+        <li class="tab" data-category="upcoming"><i class="fas fa-calendar-week"></i> Upcoming</li>
+        <li class="tab" data-category="projects"><i class="fas fa-folder"></i> Projects</li>
+      </ul>
+    </aside>
+    <main class="todo-section">
+      <h1 id="taskTitle">Inbox</h1>
+      <div class="task-input">
+        <input type="text" id="taskInput" placeholder="Add a task..." />
+        <button id="addTaskBtn">Add</button>
+      </div>
+      <ul id="taskList" class="task-list"></ul>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
