@@ -131,3 +131,13 @@ body {
 .delete-btn:hover {
   background: #c0392b;
 }
+.responsive-box {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  padding: 20px;
+  margin: 0 auto;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
